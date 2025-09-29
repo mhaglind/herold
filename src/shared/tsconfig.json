@@ -1,10 +1,10 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
     "target": "ES2022",
     "outDir": "../../dist/shared",
-    "rootDir": ".",
     "jsx": "preserve",
     "declaration": true,
     "noEmit": false
