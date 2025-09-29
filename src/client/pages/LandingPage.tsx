@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { CreateProjectModal } from '../components/CreateProjectModal';
 
 const LandingPage: React.FC = () => {
+  const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
+
+  const handleCreateProject = () => {
+    setIsCreateModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsCreateModalOpen(false);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Header */}
@@ -46,7 +57,10 @@ const LandingPage: React.FC = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <button className="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors">
+            <button
+              onClick={handleCreateProject}
+              className="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors"
+            >
               Create Your First Family Tree
             </button>
             <Link
@@ -113,7 +127,10 @@ const LandingPage: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 No projects yet. Create your first family tree to get started!
               </p>
-              <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
+              <button
+                onClick={handleCreateProject}
+                className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors"
+              >
                 + New Family Project
               </button>
             </div>
@@ -146,6 +163,12 @@ const LandingPage: React.FC = () => {
           </p>
         </div>
       </footer>
+
+      {/* Create Project Modal */}
+      <CreateProjectModal
+        isOpen={isCreateModalOpen}
+        onClose={handleCloseModal}
+      />
     </div>
   );
 };
