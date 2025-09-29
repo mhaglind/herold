@@ -7,6 +7,8 @@ import { ProjectService } from './ProjectService';
 import { SVGRenderingService } from './svg/SVGRenderingService';
 import { FamilyMember, FamilyMemberValidation } from '../../shared/types/FamilyMember';
 import { FamilyProject } from '../../shared/types/FamilyProject';
+import fs from 'fs/promises';
+import path from 'path';
 
 export interface CreateFamilyMemberData {
   namn: string;
@@ -540,10 +542,6 @@ export class FamilyMemberService {
    * Save updated project (wrapper around ProjectService)
    */
   private async saveProject(project: FamilyProject): Promise<void> {
-    // Import at top of function to ensure compatibility
-    const fs = require('fs/promises');
-    const path = require('path');
-
     // Ensure directory exists
     try {
       await fs.mkdir(this.dataDirectory, { recursive: true });
