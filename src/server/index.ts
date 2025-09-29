@@ -5,6 +5,7 @@ import helmet from 'helmet';
 import dotenv from 'dotenv';
 import projectRoutes from './routes/projects';
 import svgRoutes from './routes/svg';
+import memberRoutes from './routes/members';
 
 // Load environment variables
 dotenv.config();
@@ -46,6 +47,9 @@ app.use('/api/projects', projectRoutes);
 
 // SVG rendering routes (nested under projects)
 app.use('/api/projects', svgRoutes);
+
+// Family member management routes (nested under projects)
+app.use('/api/projects/:id/members', memberRoutes);
 
 // 404 handler
 app.use('*', (req, res) => {
