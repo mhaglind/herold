@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="842" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <!-- Font styles -->
+    <style>
+      .family-tree-font {
+        font-family: 'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', 'cursive', 'serif';
+      }
+    </style>
+
+    <!-- Parchment background gradient -->
+    <radialGradient id="parchment" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#f4f1e8"/>
+      <stop offset="100%" style="stop-color:#e8e0d0"/>
+    </radialGradient>
+
+    <!-- Text shadow filter -->
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="1" stdDeviation="0.5"
+                   flood-color="#8b7355"
+                   flood-opacity="0.3"/>
+    </filter>
+
+    <!-- Border decorations -->
+        <!-- Corner decorations -->
+    <g id="corner-decoration">
+      <circle cx="0" cy="0" r="3" fill="#8b7355"/>
+      <circle cx="6" cy="0" r="2" fill="#d4c4a8"/>
+      <circle cx="0" cy="6" r="2" fill="#d4c4a8"/>
+    </g>
+  </defs>
+    <!-- Parchment background -->
+  <rect width="700" height="842" fill="url(#parchment)" stroke="#d4c4a8" stroke-width="3"/>
+
+  <!-- Decorative frame -->
+  <rect x="20" y="20" width="660" height="802"
+        fill="none" stroke="#8b7355" stroke-width="2" stroke-dasharray="5,3"/>
+    <!-- Title -->
+  <text x="350" y="60" text-anchor="middle"
+        class="family-tree-font"
+        font-size="32" font-weight="bold"
+        fill="#5a4a3a"
+        filter="url(#textShadow)">
+    Huset Halling
+  </text>
+  <text x="350" y="85" text-anchor="middle"
+        class="family-tree-font"
+        font-size="18"
+        fill="#8b7355">
+    Släktträd
+  </text>
+    <!-- Family connections -->
+    <!-- Parent-child connection -->
+    <path d="M 250 120 L 250 140 L 318 140 L 318 160"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 114 240 L 114 230 L 286 230 L 286 220"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 206 180 L 206 200 L 402 200 L 402 220"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 318 180 L 318 200 L 402 200 L 402 220"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 146 300 L 146 290 L 362 290 L 362 280"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 402 240 L 402 260 L 474 260 L 474 280"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 474 300 L 474 320 L 82 320 L 82 340"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 362 300 L 362 320 L 82 320 L 82 340"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 82 360 L 82 380 L 78 380 L 78 400"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 82 360 L 82 380 L 178 380 L 178 400"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 178 420 L 178 440 L 82 440 L 82 460"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 78 420 L 78 440 L 214 440 L 214 460"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 78 420 L 78 440 L 290 440 L 290 460"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 290 480 L 290 500 L 78 500 L 78 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 370 480 L 370 500 L 78 500 L 78 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 78 540 L 78 560 L 134 560 L 134 580"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 290 480 L 290 500 L 198 500 L 198 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 370 480 L 370 500 L 198 500 L 198 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 390 360 L 390 410 L 458 410 L 458 460"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 390 360 L 390 410 L 554 410 L 554 460"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 214 480 L 214 500 L 322 500 L 322 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 458 480 L 458 500 L 322 500 L 322 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 214 480 L 214 500 L 502 500 L 502 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 458 480 L 458 500 L 502 500 L 502 520"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 502 540 L 502 560 L 322 560 L 322 580"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 322 540 L 322 560 L 486 560 L 486 580"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 410 540 L 410 560 L 486 560 L 486 580"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 486 600 L 486 620 L 74 620 L 74 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 618 600 L 618 620 L 74 620 L 74 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 486 600 L 486 620 L 206 620 L 206 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 618 600 L 618 620 L 206 620 L 206 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 486 600 L 486 620 L 334 620 L 334 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 618 600 L 618 620 L 334 620 L 334 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 486 600 L 486 620 L 462 620 L 462 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Parent-child connection -->
+    <path d="M 618 600 L 618 620 L 462 620 L 462 640"
+          stroke="#8b7355"
+          stroke-width="1"
+          fill="none"/>
+    <!-- Marriage connections -->
+    <line x1="206" y1="170"
+                         x2="318" y2="170"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="262" y="176"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="286" y1="230"
+                         x2="402" y2="230"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="344" y="236"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="362" y1="290"
+                         x2="474" y2="290"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="418" y="296"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="82" y1="350"
+                         x2="206" y2="350"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="144" y="356"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="78" y1="410"
+                         x2="366" y2="410"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="222" y="416"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="214" y1="470"
+                         x2="458" y2="470"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="336" y="476"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="290" y1="470"
+                         x2="370" y2="470"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="330" y="476"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="322" y1="530"
+                         x2="410" y2="530"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="366" y="536"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <line x1="486" y1="590"
+                         x2="618" y2="590"
+                         stroke="#8b7355"
+                         stroke-width="1"/>
+    <text x="552" y="596"
+                           text-anchor="middle"
+                           class="family-tree-font"
+                           font-size="14"
+                           fill="#8b7355">⚭</text>
+    <!-- Family members -->
+    <text x="250" y="110"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Galrandir
+    </text>
+    <text x="206" y="170"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Halli av Dal
+    </text>
+    <text x="318" y="170"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Elanor
+    </text>
+    <text x="114" y="230"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Aldred Hede
+    </text>
+    <text x="286" y="230"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Rosanna Hede
+    </text>
+    <text x="402" y="230"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Arnhelm
+    </text>
+    <text x="146" y="290"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Aldanor av huset Dúnhere
+    </text>
+    <text x="362" y="290"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Mithrellas
+    </text>
+    <text x="474" y="290"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Grimward
+    </text>
+    <text x="82" y="350"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Beregond
+    </text>
+    <text x="206" y="350"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Sigrun av Dal
+    </text>
+    <text x="390" y="350"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Isildanor av huset Ulad
+    </text>
+    <text x="78" y="410"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Hafgrim
+    </text>
+    <text x="178" y="410"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Bjornulf
+    </text>
+    <text x="366" y="410"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Sigrid Hall-hirding
+    </text>
+    <text x="82" y="470"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Ragnvald
+    </text>
+    <text x="214" y="470"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Vidar
+    </text>
+    <text x="290" y="470"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Eliv
+    </text>
+    <text x="370" y="470"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Astrid
+    </text>
+    <text x="458" y="470"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Liriel
+    </text>
+    <text x="554" y="470"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Ulduilas
+    </text>
+    <text x="78" y="530"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Tormund
+    </text>
+    <text x="198" y="530"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Ulf
+    </text>
+    <text x="322" y="530"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Holmfast
+    </text>
+    <text x="410" y="530"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Tyra
+    </text>
+    <text x="502" y="530"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Sigeberth
+    </text>
+    <text x="134" y="590"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Steinþór av Elivs Ryd
+    </text>
+    <text x="322" y="590"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Godmer
+    </text>
+    <text x="486" y="590"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Halvard Halling
+    </text>
+    <text x="618" y="590"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Aelswith
+    </text>
+    <text x="74" y="650"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Harald
+    </text>
+    <text x="206" y="650"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Halldis
+    </text>
+    <text x="334" y="650"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Frode
+    </text>
+    <text x="462" y="650"
+                  text-anchor="middle"
+                  class="family-tree-font"
+                  font-size="12"
+                  fill="#8b7355">
+      Steorra
+    </text>
+</svg>

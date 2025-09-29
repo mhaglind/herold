@@ -5,12 +5,12 @@
 
 import { Router } from 'express';
 import { FamilyMemberController } from '../controllers/FamilyMemberController';
-import { FamilyMemberService } from '../services/FamilyMemberService';
+import { FamilyMemberIntegrationService } from '../services/FamilyMemberIntegrationService';
 
 const router = Router();
 
-// Initialize service and controller
-const familyMemberService = new FamilyMemberService();
+// Initialize integration service and controller
+const familyMemberService = new FamilyMemberIntegrationService();
 const familyMemberController = new FamilyMemberController(familyMemberService);
 
 /**

@@ -4,12 +4,13 @@
  */
 
 import { Request, Response } from 'express';
-import { FamilyMemberService, CreateFamilyMemberData, UpdateFamilyMemberData, AddRelationshipData } from '../services/FamilyMemberService';
+import { FamilyMemberIntegrationService } from '../services/FamilyMemberIntegrationService';
+import { CreateFamilyMemberData, UpdateFamilyMemberData, AddRelationshipData } from '../services/FamilyMemberService';
 
 export class FamilyMemberController {
-  private familyMemberService: FamilyMemberService;
+  private familyMemberService: FamilyMemberIntegrationService;
 
-  constructor(familyMemberService: FamilyMemberService) {
+  constructor(familyMemberService: FamilyMemberIntegrationService) {
     this.familyMemberService = familyMemberService;
   }
 
@@ -156,9 +157,9 @@ export class FamilyMemberController {
         locations: Array.isArray(locations) ? locations : undefined
       };
 
-      const newMember = await this.familyMemberService.addMember(projectId, memberData);
+      const result = await this.familyMemberService.addMember(projectId, memberData);
 
-      if (!newMember) {
+      if (!result.data) {
         res.status(404).json({
           error: 'Not Found',
           message: `Project with ID '${projectId}' not found`,
@@ -168,8 +169,13 @@ export class FamilyMemberController {
       }
 
       res.status(201).json({
-        member: newMember,
-        message: 'Family member added successfully'
+        member: result.data,
+        message: 'Family member added successfully',
+        svg: {
+          updated: result.svgUpdated,
+          path: result.svgPath,
+          error: result.error
+        }
       });
     } catch (error: any) {
       console.error(`Error adding member to project ${req.params.id}:`, error);
@@ -275,9 +281,9 @@ export class FamilyMemberController {
       if (Array.isArray(titles)) updates.titles = titles;
       if (Array.isArray(locations)) updates.locations = locations;
 
-      const updatedMember = await this.familyMemberService.updateMember(projectId, memberId, updates);
+      const result = await this.familyMemberService.updateMember(projectId, memberId, updates);
 
-      if (!updatedMember) {
+      if (!result.data) {
         res.status(404).json({
           error: 'Not Found',
           message: `Member with ID '${memberId}' not found in project '${projectId}'`,
@@ -287,8 +293,13 @@ export class FamilyMemberController {
       }
 
       res.json({
-        member: updatedMember,
-        message: 'Family member updated successfully'
+        member: result.data,
+        message: 'Family member updated successfully',
+        svg: {
+          updated: result.svgUpdated,
+          path: result.svgPath,
+          error: result.error
+        }
       });
     } catch (error: any) {
       console.error(`Error updating member ${req.params.memberId} in project ${req.params.id}:`, error);
@@ -335,9 +346,9 @@ export class FamilyMemberController {
         return;
       }
 
-      const removed = await this.familyMemberService.removeMember(projectId, memberId);
+      const result = await this.familyMemberService.removeMember(projectId, memberId);
 
-      if (!removed) {
+      if (!result.data) {
         res.status(404).json({
           error: 'Not Found',
           message: `Member with ID '${memberId}' not found in project '${projectId}'`,
@@ -349,6 +360,11 @@ export class FamilyMemberController {
       res.json({
         message: `Family member '${memberId}' removed successfully`,
         timestamp: new Date().toISOString(),
+        svg: {
+          updated: result.svgUpdated,
+          path: result.svgPath,
+          error: result.error
+        }
       });
     } catch (error: any) {
       console.error(`Error removing member ${req.params.memberId} from project ${req.params.id}:`, error);
@@ -420,9 +436,9 @@ export class FamilyMemberController {
         notes
       };
 
-      const success = await this.familyMemberService.addRelationship(projectId, memberId, relationshipData);
+      const result = await this.familyMemberService.addRelationship(projectId, memberId, relationshipData);
 
-      if (!success) {
+      if (!result.data) {
         res.status(404).json({
           error: 'Not Found',
           message: `Member with ID '${memberId}' or '${relatedPersonId}' not found in project '${projectId}'`,
@@ -434,6 +450,11 @@ export class FamilyMemberController {
       res.json({
         message: `Relationship added successfully: ${memberId} is ${type} of ${relatedPersonId}`,
         timestamp: new Date().toISOString(),
+        svg: {
+          updated: result.svgUpdated,
+          path: result.svgPath,
+          error: result.error
+        }
       });
     } catch (error: any) {
       console.error(`Error adding relationship for member ${req.params.memberId} in project ${req.params.id}:`, error);
@@ -499,14 +520,14 @@ export class FamilyMemberController {
         return;
       }
 
-      const success = await this.familyMemberService.removeRelationship(
+      const result = await this.familyMemberService.removeRelationship(
         projectId,
         memberId,
         relatedPersonId,
         type as 'parent' | 'child' | 'partner'
       );
 
-      if (!success) {
+      if (!result.data) {
         res.status(404).json({
           error: 'Not Found',
           message: `Member with ID '${memberId}' or '${relatedPersonId}' not found in project '${projectId}'`,
@@ -518,6 +539,11 @@ export class FamilyMemberController {
       res.json({
         message: `Relationship removed successfully: ${memberId} is no longer ${type} of ${relatedPersonId}`,
         timestamp: new Date().toISOString(),
+        svg: {
+          updated: result.svgUpdated,
+          path: result.svgPath,
+          error: result.error
+        }
       });
     } catch (error: any) {
       console.error(`Error removing relationship for member ${req.params.memberId} in project ${req.params.id}:`, error);
