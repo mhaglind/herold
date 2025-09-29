@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="595" height="842" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Google Fonts import -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&amp;family=Great+Vibes&amp;family=Allura&amp;family=Pinyon+Script&amp;family=Alex+Brush&amp;display=swap');
+    </style>
+
+    <!-- Pergament bakgrund gradient -->
+    <radialGradient id="parchment" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#f4f1e8"/>
+      <stop offset="100%" style="stop-color:#e8e0d0"/>
+    </radialGradient>
+
+    <!-- Skugga för text -->
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="1" stdDeviation="0.5" flood-color="#8b7355" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Pergament bakgrund -->
+  <rect width="595" height="842" fill="url(#parchment)" stroke="#d4c4a8" stroke-width="3"/>
+
+  <!-- Dekorativ ram -->
+  <rect x="20" y="20" width="555" height="802" fill="none" stroke="#8b7355" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Titel -->
+  <text x="297.5" y="50" text-anchor="middle" font-family="Times New Roman, serif" font-size="24" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    TYPSNITT TEST
+  </text>
+
+  <!-- Dancing Script -->
+  <text x="80" y="120" text-anchor="start" font-family="'Dancing Script', cursive" font-size="24" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    1. Dancing Script
+  </text>
+  <text x="100" y="150" text-anchor="start" font-family="'Dancing Script', cursive" font-size="18"
+        fill="#5a4a3a">
+    Halvard Halling ⚭ Aelswith
+  </text>
+  <text x="100" y="175" text-anchor="start" font-family="'Dancing Script', cursive" font-size="16"
+        fill="#5a4a3a">
+    Harald, Halldis, Frode, Steorra
+  </text>
+
+  <!-- Great Vibes -->
+  <text x="80" y="230" text-anchor="start" font-family="'Great Vibes', cursive" font-size="28" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    2. Great Vibes
+  </text>
+  <text x="100" y="260" text-anchor="start" font-family="'Great Vibes', cursive" font-size="22"
+        fill="#5a4a3a">
+    Halvard Halling ⚭ Aelswith
+  </text>
+  <text x="100" y="285" text-anchor="start" font-family="'Great Vibes', cursive" font-size="18"
+        fill="#5a4a3a">
+    Harald, Halldis, Frode, Steorra
+  </text>
+
+  <!-- Allura -->
+  <text x="80" y="340" text-anchor="start" font-family="'Allura', cursive" font-size="26" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    3. Allura
+  </text>
+  <text x="100" y="370" text-anchor="start" font-family="'Allura', cursive" font-size="20"
+        fill="#5a4a3a">
+    Halvard Halling ⚭ Aelswith
+  </text>
+  <text x="100" y="395" text-anchor="start" font-family="'Allura', cursive" font-size="16"
+        fill="#5a4a3a">
+    Harald, Halldis, Frode, Steorra
+  </text>
+
+  <!-- Pinyon Script -->
+  <text x="80" y="450" text-anchor="start" font-family="'Pinyon Script', cursive" font-size="28" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    4. Pinyon Script
+  </text>
+  <text x="100" y="480" text-anchor="start" font-family="'Pinyon Script', cursive" font-size="22"
+        fill="#5a4a3a">
+    Halvard Halling ⚭ Aelswith
+  </text>
+  <text x="100" y="505" text-anchor="start" font-family="'Pinyon Script', cursive" font-size="18"
+        fill="#5a4a3a">
+    Harald, Halldis, Frode, Steorra
+  </text>
+
+  <!-- Alex Brush -->
+  <text x="80" y="560" text-anchor="start" font-family="'Alex Brush', cursive" font-size="26" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    5. Alex Brush
+  </text>
+  <text x="100" y="590" text-anchor="start" font-family="'Alex Brush', cursive" font-size="20"
+        fill="#5a4a3a">
+    Halvard Halling ⚭ Aelswith
+  </text>
+  <text x="100" y="615" text-anchor="start" font-family="'Alex Brush', cursive" font-size="16"
+        fill="#5a4a3a">
+    Harald, Halldis, Frode, Steorra
+  </text>
+
+  <!-- Kommentarer -->
+  <text x="80" y="680" text-anchor="start" font-family="Times New Roman, serif" font-size="14" font-style="italic"
+        fill="#8b7355">
+    Noter:
+  </text>
+  <text x="80" y="700" text-anchor="start" font-family="Times New Roman, serif" font-size="12"
+        fill="#8b7355">
+    • Dancing Script: Flytande och läsbar, perfekt för längre texter
+  </text>
+  <text x="80" y="720" text-anchor="start" font-family="Times New Roman, serif" font-size="12"
+        fill="#8b7355">
+    • Great Vibes: Mycket elegant, kräver större fontstorlek
+  </text>
+  <text x="80" y="740" text-anchor="start" font-family="Times New Roman, serif" font-size="12"
+        fill="#8b7355">
+    • Allura: Balanserat mellan elegans och läsbarhet
+  </text>
+  <text x="80" y="760" text-anchor="start" font-family="Times New Roman, serif" font-size="12"
+        fill="#8b7355">
+    • Pinyon Script: Klassisk kalligrafi, vintage känsla
+  </text>
+  <text x="80" y="780" text-anchor="start" font-family="Times New Roman, serif" font-size="12"
+        fill="#8b7355">
+    • Alex Brush: Handmålad brush-stil, mer informell
+  </text>
+
+</svg>

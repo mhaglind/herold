@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="595" height="842" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dancing Script med fallbacks -->
+    <style>
+      /* Försök Dancing Script först, sedan fallbacks */
+      .dancing-script {
+        font-family: 'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', 'Brush Script MT', cursive, serif;
+      }
+    </style>
+
+    <!-- Pergament bakgrund gradient -->
+    <radialGradient id="parchment" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#f4f1e8"/>
+      <stop offset="100%" style="stop-color:#e8e0d0"/>
+    </radialGradient>
+
+    <!-- Skugga för text -->
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="1" stdDeviation="0.5" flood-color="#8b7355" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Pergament bakgrund -->
+  <rect width="595" height="842" fill="url(#parchment)" stroke="#d4c4a8" stroke-width="3"/>
+
+  <!-- Dekorativ ram -->
+  <rect x="20" y="20" width="555" height="802" fill="none" stroke="#8b7355" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Titel -->
+  <text x="297.5" y="60" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="32" font-weight="bold"
+        fill="#5a4a3a" filter="url(#textShadow)">
+    Huset Halling
+  </text>
+  <text x="297.5" y="85" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="18"
+        fill="#8b7355">
+    Släktträd
+  </text>
+
+  <!-- Generation -4: Galrandir ovanför Elanor -->
+  <text x="240" y="130" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Galrandir
+  </text>
+
+  <!-- Linje från Galrandir till Elanor -->
+  <line x1="240" y1="140" x2="240" y2="175" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation -3: Halli av Dal ⚭ Elanor -->
+  <text x="160" y="185" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Halli av Dal
+  </text>
+
+  <!-- Äktenskapslinje Halli-Elanor -->
+  <line x1="185" y1="185" x2="215" y2="185" stroke="#8b7355" stroke-width="1"/>
+  <text x="200" y="180" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="240" y="185" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Elanor
+  </text>
+
+  <!-- Linje från Halli-Elanor ner till Arnhelm -->
+  <line x1="200" y1="195" x2="200" y2="225" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation -2: Arnhelm ⚭ Rosanna Hede, Aldred Hede -->
+  <text x="200" y="235" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Arnhelm
+  </text>
+
+  <!-- Äktenskapslinje Arnhelm-Rosanna -->
+  <line x1="225" y1="235" x2="315" y2="235" stroke="#8b7355" stroke-width="1"/>
+  <text x="270" y="230" text-anchor="middle" font-family="serif" font-size="10" fill="#8b7355">⚭</text>
+
+  <text x="340" y="235" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Rosanna Hede
+  </text>
+
+  <!-- Aldred Hede på samma rad som Halli -->
+  <text x="340" y="185" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Aldred Hede från Bri
+  </text>
+
+  <!-- Linje från Aldred till Rosanna -->
+  <line x1="340" y1="195" x2="340" y2="225" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linje från Arnhelm-Rosanna till Grimward -->
+  <line x1="270" y1="245" x2="270" y2="265" stroke="#8b7355" stroke-width="1"/>
+  <line x1="270" y1="265" x2="300" y2="265" stroke="#8b7355" stroke-width="1"/>
+  <line x1="300" y1="265" x2="300" y2="285" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation -1.5: Grimward ⚭ Mithrellas, Aldanor -->
+  <text x="300" y="295" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Grimward
+  </text>
+
+  <!-- Äktenskapslinje Grimward-Mithrellas -->
+  <line x1="325" y1="295" x2="415" y2="295" stroke="#8b7355" stroke-width="1"/>
+  <text x="370" y="290" text-anchor="middle" font-family="serif" font-size="10" fill="#8b7355">⚭</text>
+
+  <text x="440" y="295" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Mithrellas
+  </text>
+
+  <!-- Aldanor ovanför Mithrellas -->
+  <text x="440" y="265" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Aldanor av huset Dúnhere
+  </text>
+
+  <!-- Linje från Aldanor till Mithrellas -->
+  <line x1="440" y1="275" x2="440" y2="285" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linje från Grimward-Mithrellas till Beregond -->
+  <line x1="370" y1="305" x2="370" y2="325" stroke="#8b7355" stroke-width="1"/>
+  <line x1="370" y1="325" x2="360" y2="325" stroke="#8b7355" stroke-width="1"/>
+  <line x1="360" y1="325" x2="360" y2="345" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation -1: Beregond ⚭ Sigrun av Dal -->
+  <text x="320" y="355" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Beregond
+  </text>
+
+  <!-- Äktenskapslinje Beregond-Sigrun -->
+  <line x1="345" y1="355" x2="375" y2="355" stroke="#8b7355" stroke-width="1"/>
+  <text x="360" y="350" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="400" y="355" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Sigrun av Dal
+  </text>
+
+  <!-- Linje från Beregond-Sigrun till sina söner -->
+  <line x1="360" y1="365" x2="360" y2="385" stroke="#8b7355" stroke-width="1"/>
+  <line x1="260" y1="385" x2="520" y2="385" stroke="#8b7355" stroke-width="1"/>
+  <line x1="260" y1="385" x2="260" y2="405" stroke="#8b7355" stroke-width="1"/>
+  <line x1="520" y1="385" x2="520" y2="405" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Isildanor på generation -1 -->
+  <text x="120" y="355" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Isildanor av huset Ulad
+  </text>
+
+  <!-- Generation -0.5: Hafgrim ⚭ Sigrid Hall-hirding, Bjornulf -->
+  <text x="210" y="415" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Hafgrim
+  </text>
+
+  <!-- Äktenskapslinje Hafgrim-Sigrid -->
+  <line x1="235" y1="415" x2="285" y2="415" stroke="#8b7355" stroke-width="1"/>
+  <text x="260" y="410" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="310" y="415" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Sigrid Hall-hirding
+  </text>
+
+  <!-- Bjornulf -->
+  <text x="520" y="415" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Bjornulf
+  </text>
+
+  <!-- Linje från Hafgrim-Sigrid till sina söner -->
+  <line x1="260" y1="425" x2="260" y2="450" stroke="#8b7355" stroke-width="1"/>
+  <line x1="260" y1="450" x2="315" y2="450" stroke="#8b7355" stroke-width="1"/>
+  <line x1="280" y1="450" x2="280" y2="475" stroke="#8b7355" stroke-width="1"/>
+  <line x1="315" y1="450" x2="315" y2="460" stroke="#8b7355" stroke-width="1"/>
+  <line x1="315" y1="460" x2="350" y2="460" stroke="#8b7355" stroke-width="1"/>
+  <line x1="350" y1="460" x2="350" y2="475" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linje från Bjornulf till Ragnvald -->
+  <line x1="520" y1="425" x2="520" y2="480" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linje från Isildanor till sina döttrar -->
+  <line x1="120" y1="365" x2="120" y2="440" stroke="#8b7355" stroke-width="1"/>
+  <line x1="120" y1="440" x2="160" y2="440" stroke="#8b7355" stroke-width="1"/>
+  <line x1="120" y1="440" x2="120" y2="475" stroke="#8b7355" stroke-width="1"/>
+  <line x1="160" y1="440" x2="160" y2="460" stroke="#8b7355" stroke-width="1"/>
+  <line x1="160" y1="460" x2="200" y2="460" stroke="#8b7355" stroke-width="1"/>
+  <line x1="200" y1="460" x2="200" y2="475" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation 0: Ulduilas, Liriel ⚭ Vidar, Eliv ⚭ Astrid, Ragnvald -->
+  <!-- Ragnvald (Bjornulfs son) -->
+  <text x="520" y="490" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Ragnvald
+  </text>
+
+  <!-- Ulduilas -->
+  <text x="120" y="485" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Ulduilas
+  </text>
+
+  <!-- Liriel -->
+  <text x="200" y="485" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Liriel
+  </text>
+
+  <!-- Äktenskapslinje Liriel-Vidar -->
+  <line x1="225" y1="485" x2="255" y2="485" stroke="#8b7355" stroke-width="1"/>
+  <text x="240" y="480" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="280" y="485" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Vidar
+  </text>
+
+  <!-- Eliv ⚭ Astrid (annorlunda Astrid än Hafgrims fru) -->
+  <text x="350" y="485" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Eliv
+  </text>
+
+  <!-- Äktenskapslinje Eliv-Astrid -->
+  <line x1="375" y1="485" x2="405" y2="485" stroke="#8b7355" stroke-width="1"/>
+  <text x="390" y="480" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="430" y="485" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Astrid
+  </text>
+
+
+  <!-- Familjegrupp A: Vidar-Liriel till deras barn -->
+  <line x1="240" y1="495" x2="240" y2="520" stroke="#8b7355" stroke-width="1"/>
+  <line x1="240" y1="520" x2="245" y2="520" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Syskonlinje för Holmfast-Sigeberth -->
+  <line x1="170" y1="520" x2="320" y2="520" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linjer ner till Holmfast och Sigeberth -->
+  <line x1="170" y1="520" x2="170" y2="555" stroke="#8b7355" stroke-width="1"/>
+  <line x1="320" y1="520" x2="320" y2="555" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Familjegrupp B: Eliv-Astrid till deras barn -->
+  <line x1="390" y1="495" x2="390" y2="525" stroke="#8b7355" stroke-width="1"/>
+  <line x1="390" y1="525" x2="460" y2="525" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Syskonlinje för Tormund-Ulf -->
+  <line x1="420" y1="525" x2="500" y2="525" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linjer ner till Tormund och Ulf -->
+  <line x1="420" y1="525" x2="420" y2="555" stroke="#8b7355" stroke-width="1"/>
+  <line x1="500" y1="525" x2="500" y2="555" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation 1: Holmfast ⚭ Tyra, Sigeberth, Tormund, Ulf -->
+  <text x="170" y="565" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Holmfast
+  </text>
+
+  <!-- Äktenskapslinje Holmfast-Tyra -->
+  <line x1="195" y1="565" x2="225" y2="565" stroke="#8b7355" stroke-width="1"/>
+  <text x="210" y="560" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="250" y="565" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Tyra
+  </text>
+
+  <!-- Sigeberth -->
+  <text x="320" y="565" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Sigeberth
+  </text>
+
+  <!-- Tormund -->
+  <text x="420" y="565" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Tormund
+  </text>
+
+  <!-- Ulf -->
+  <text x="500" y="565" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" fill="#5a4a3a">
+    Ulf
+  </text>
+
+  <!-- Linje från Holmfast-Tyra ner till Halvard -->
+  <line x1="210" y1="575" x2="210" y2="595" stroke="#8b7355" stroke-width="1"/>
+  <line x1="210" y1="595" x2="140" y2="595" stroke="#8b7355" stroke-width="1"/>
+  <line x1="140" y1="595" x2="140" y2="615" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linje från Sigeberth ner till Godmer -->
+  <line x1="320" y1="575" x2="320" y2="595" stroke="#8b7355" stroke-width="1"/>
+  <line x1="320" y1="595" x2="330" y2="595" stroke="#8b7355" stroke-width="1"/>
+  <line x1="330" y1="595" x2="330" y2="615" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linje från Tormund ner till Steinþór -->
+  <line x1="420" y1="575" x2="420" y2="595" stroke="#8b7355" stroke-width="1"/>
+  <line x1="420" y1="595" x2="450" y2="595" stroke="#8b7355" stroke-width="1"/>
+  <line x1="450" y1="595" x2="450" y2="615" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation 2: Halvard ⚭ Aelswith, Godmer, Erik av Elivs Ryd -->
+  <text x="140" y="625" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="16" font-weight="bold" fill="#5a4a3a">
+    Halvard Halling
+  </text>
+
+  <!-- Äktenskapslinje Halvard-Aelswith -->
+  <line x1="175" y1="625" x2="215" y2="625" stroke="#8b7355" stroke-width="1"/>
+  <text x="195" y="620" text-anchor="middle" font-family="serif" font-size="8" fill="#8b7355">⚭</text>
+
+  <text x="250" y="625" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="14" fill="#5a4a3a">
+    Aelswith
+  </text>
+
+  <!-- Godmer (kusin till Halvard) -->
+  <text x="330" y="625" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="14" fill="#5a4a3a">
+    Godmer
+  </text>
+
+  <!-- Steinþór av Elivs Ryd -->
+  <text x="450" y="625" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="14" fill="#5a4a3a">
+    Steinþór av Elivs Ryd
+  </text>
+
+  <!-- Linje från Halvard-Aelswith ner till barn -->
+  <line x1="195" y1="635" x2="195" y2="665" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Tvärslinje för Halvards barn -->
+  <line x1="120" y1="665" x2="270" y2="665" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Linjer ner till varje barn -->
+  <line x1="120" y1="665" x2="120" y2="715" stroke="#8b7355" stroke-width="1"/>
+  <line x1="170" y1="665" x2="170" y2="715" stroke="#8b7355" stroke-width="1"/>
+  <line x1="220" y1="665" x2="220" y2="715" stroke="#8b7355" stroke-width="1"/>
+  <line x1="270" y1="665" x2="270" y2="715" stroke="#8b7355" stroke-width="1"/>
+
+  <!-- Generation 3: Halvards barn -->
+  <text x="120" y="725" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="12" fill="#5a4a3a">
+    Harald
+  </text>
+
+  <text x="170" y="725" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="12" fill="#5a4a3a">
+    Halldis
+  </text>
+
+  <text x="220" y="725" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="12" fill="#5a4a3a">
+    Frode
+  </text>
+
+  <text x="270" y="725" text-anchor="middle" font-family="'Dancing Script', 'Lucida Handwriting', 'Apple Chancery', cursive, serif" font-size="12" fill="#5a4a3a">
+    Steorra
+  </text>
+
+  <!-- Dekorativa hörn -->
+  <g fill="#8b7355" opacity="0.4">
+    <!-- Vänster övre hörn -->
+    <path d="M 40 40 Q 50 40 50 50 Q 50 40 60 40" stroke="#8b7355" stroke-width="1" fill="none"/>
+    <path d="M 40 60 Q 40 50 50 50 Q 40 50 40 40" stroke="#8b7355" stroke-width="1" fill="none"/>
+
+    <!-- Höger övre hörn -->
+    <path d="M 555 40 Q 545 40 545 50 Q 545 40 535 40" stroke="#8b7355" stroke-width="1" fill="none"/>
+    <path d="M 555 60 Q 555 50 545 50 Q 555 50 555 40" stroke="#8b7355" stroke-width="1" fill="none"/>
+
+    <!-- Vänster nedre hörn -->
+    <path d="M 40 802 Q 50 802 50 792 Q 50 802 60 802" stroke="#8b7355" stroke-width="1" fill="none"/>
+    <path d="M 40 782 Q 40 792 50 792 Q 40 792 40 802" stroke="#8b7355" stroke-width="1" fill="none"/>
+
+    <!-- Höger nedre hörn -->
+    <path d="M 555 802 Q 545 802 545 792 Q 545 802 535 802" stroke="#8b7355" stroke-width="1" fill="none"/>
+    <path d="M 555 782 Q 555 792 545 792 Q 555 792 555 802" stroke="#8b7355" stroke-width="1" fill="none"/>
+  </g>
+
+</svg>
