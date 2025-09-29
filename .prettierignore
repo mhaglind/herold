@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated files that shouldn't be formatted
+*.min.js
+*.min.css
+
+# Binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.otf
+*.eot
+
+# Data files
+*.json
+!package.json
+!tsconfig*.json
+
+# Legacy family tree files (manual work)
+halling_slakt*.svg
+halling_slakt*.jpg
+halling_slakt*.png
