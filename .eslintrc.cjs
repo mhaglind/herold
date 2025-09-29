@@ -25,6 +25,7 @@ module.exports = {
   rules: {
     // TypeScript specific rules
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -41,7 +42,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
 
     // General code quality rules
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'warn',
     'prefer-const': 'error',
     'no-var': 'error',

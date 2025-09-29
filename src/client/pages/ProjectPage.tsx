@@ -11,7 +11,10 @@ const ProjectPage: React.FC = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
-              <Link to="/" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900">
+              <Link
+                to="/"
+                className="flex items-center space-x-2 text-gray-600 hover:text-gray-900"
+              >
                 <span>←</span>
                 <span>Back to Projects</span>
               </Link>
@@ -33,7 +36,6 @@ const ProjectPage: React.FC = () => {
       {/* Main Content */}
       <main className="container mx-auto px-6 py-8">
         <div className="max-w-6xl mx-auto">
-
           {/* Family Tree Display Area */}
           <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
             <h2 className="text-xl font-semibold text-gray-900 mb-6">Family Tree</h2>
@@ -41,15 +43,18 @@ const ProjectPage: React.FC = () => {
             {/* Placeholder for family tree SVG */}
             <div className="border-2 border-dashed border-gray-300 rounded-lg p-16 text-center">
               <div className="text-6xl mb-4">🌳</div>
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">Family Tree Will Appear Here</h3>
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                Family Tree Will Appear Here
+              </h3>
               <p className="text-gray-500 mb-4">
-                Once the SVG rendering engine is implemented, your beautiful family tree will be displayed here.
+                Once the SVG rendering engine is implemented, your beautiful family tree will be
+                displayed here.
               </p>
               {projectId === 'halling' && (
                 <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 max-w-md mx-auto">
                   <p className="text-sm text-blue-700">
-                    <strong>Demo Note:</strong> The Halling family tree from our manual work will be automatically
-                    rendered here once Phase 2 (SVG rendering) is completed.
+                    <strong>Demo Note:</strong> The Halling family tree from our manual work will be
+                    automatically rendered here once Phase 2 (SVG rendering) is completed.
                   </p>
                 </div>
               )}

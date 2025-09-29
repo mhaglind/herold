@@ -14,9 +14,20 @@ const LandingPage: React.FC = () => {
             <h1 className="text-3xl font-bold text-gray-900">Herold</h1>
           </div>
           <nav className="hidden md:flex space-x-6">
-            <a href="#features" className="text-gray-600 hover:text-gray-900">Features</a>
-            <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
-            <a href="https://github.com/mhaglind/herold" className="text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#features" className="text-gray-600 hover:text-gray-900">
+              Features
+            </a>
+            <a href="#about" className="text-gray-600 hover:text-gray-900">
+              About
+            </a>
+            <a
+              href="https://github.com/mhaglind/herold"
+              className="text-gray-600 hover:text-gray-900"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
           </nav>
         </div>
       </header>
@@ -29,8 +40,8 @@ const LandingPage: React.FC = () => {
             <span className="text-indigo-600">Beautiful Family Trees</span>
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Create stunning family trees through natural language. Just say "Halvard's father is Holmfast"
-            and watch as AI automatically generates your family genealogy.
+            Create stunning family trees through natural language. Just say "Halvard's father is
+            Holmfast" and watch as AI automatically generates your family genealogy.
           </p>
 
           {/* CTA Buttons */}
@@ -51,13 +62,17 @@ const LandingPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Natural Language Input</h3>
             <div className="bg-gray-50 rounded-lg p-6 font-mono text-left">
               <div className="text-gray-600 mb-2">💬 You type:</div>
-              <div className="text-lg text-gray-900 mb-4">"Add Elanor as Galrandir's daughter and Halli's wife"</div>
+              <div className="text-lg text-gray-900 mb-4">
+                "Add Elanor as Galrandir's daughter and Halli's wife"
+              </div>
               <div className="text-gray-600 mb-2">🤖 AI understands:</div>
               <div className="text-sm text-gray-700">
-                • Creates new person: Elanor<br/>
-                • Sets parent relationship: Galrandir → Elanor<br/>
-                • Sets marriage: Elanor ⚭ Halli<br/>
-                • Updates family tree layout automatically
+                • Creates new person: Elanor
+                <br />
+                • Sets parent relationship: Galrandir → Elanor
+                <br />
+                • Sets marriage: Elanor ⚭ Halli
+                <br />• Updates family tree layout automatically
               </div>
             </div>
           </div>
@@ -68,21 +83,24 @@ const LandingPage: React.FC = () => {
               <div className="text-4xl mb-4">🤖</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">AI-Powered</h3>
               <p className="text-gray-600">
-                Advanced natural language processing understands family relationships and converts them to precise genealogical data.
+                Advanced natural language processing understands family relationships and converts
+                them to precise genealogical data.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Beautiful Layouts</h3>
               <p className="text-gray-600">
-                Automatically generates publication-quality family trees with elegant typography and perfect positioning.
+                Automatically generates publication-quality family trees with elegant typography and
+                perfect positioning.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg">
               <div className="text-4xl mb-4">🌍</div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Cultural Intelligence</h3>
               <p className="text-gray-600">
-                Supports different naming traditions: Nordic, Elvish, English, and geographic identifiers.
+                Supports different naming traditions: Nordic, Elvish, English, and geographic
+                identifiers.
               </p>
             </div>
           </div>
@@ -92,7 +110,9 @@ const LandingPage: React.FC = () => {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Your Family Projects</h3>
             <div className="text-center py-12">
               <div className="text-6xl mb-4">📂</div>
-              <p className="text-gray-600 mb-6">No projects yet. Create your first family tree to get started!</p>
+              <p className="text-gray-600 mb-6">
+                No projects yet. Create your first family tree to get started!
+              </p>
               <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors">
                 + New Family Project
               </button>
@@ -110,10 +130,17 @@ const LandingPage: React.FC = () => {
             </div>
             <span className="text-xl font-bold">Herold</span>
           </div>
-          <p className="text-gray-400 mb-4">AI-powered family tree creation through natural language</p>
+          <p className="text-gray-400 mb-4">
+            AI-powered family tree creation through natural language
+          </p>
           <p className="text-gray-500 text-sm">
             Built with ❤️ using React, TypeScript, and Claude AI •
-            <a href="https://github.com/mhaglind/herold" className="text-indigo-400 hover:text-indigo-300 ml-1" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/mhaglind/herold"
+              className="text-indigo-400 hover:text-indigo-300 ml-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Open Source on GitHub
             </a>
           </p>
