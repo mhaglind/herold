@@ -1,0 +1,854 @@
+{
+  "id": "huset-halling",
+  "name": "Huset Halling",
+  "description": "Släktträd för rollspelskampanj i Sagan om Ringen världen",
+  "culturalContext": "middle-earth-nordic",
+  "mainPersonId": "halvard",
+  "members": {
+    "galrandir": {
+      "id": "galrandir",
+      "namn": "Galrandir",
+      "kön": "man",
+      "generation": -4,
+      "föräldrar": [],
+      "barn": [
+        "elanor"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Elanors far"
+    },
+    "halli": {
+      "id": "halli",
+      "namn": "Halli av Dal",
+      "kön": "man",
+      "generation": -3,
+      "föräldrar": [],
+      "barn": [
+        "arnhelm"
+      ],
+      "partner": "elanor",
+      "status": "levande",
+      "anteckningar": "Hafgrims farfars farfar"
+    },
+    "elanor": {
+      "id": "elanor",
+      "namn": "Elanor",
+      "kön": "kvinna",
+      "generation": -3,
+      "föräldrar": [
+        "galrandir"
+      ],
+      "barn": [
+        "arnhelm"
+      ],
+      "partner": "halli",
+      "status": "levande",
+      "anteckningar": "Hallis fru"
+    },
+    "aldred_hede": {
+      "id": "aldred_hede",
+      "namn": "Aldred Hede",
+      "kön": "man",
+      "generation": -2,
+      "föräldrar": [],
+      "barn": [
+        "rosanna_hede"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Storbonde från Bri, Rosannas far"
+    },
+    "rosanna_hede": {
+      "id": "rosanna_hede",
+      "namn": "Rosanna Hede",
+      "kön": "kvinna",
+      "generation": -2,
+      "föräldrar": [
+        "aldred_hede"
+      ],
+      "barn": [
+        "grimward"
+      ],
+      "partner": "arnhelm",
+      "status": "levande",
+      "anteckningar": "Storbondedotter från Bri, Arnhelms fru"
+    },
+    "arnhelm": {
+      "id": "arnhelm",
+      "namn": "Arnhelm",
+      "kön": "man",
+      "generation": -2,
+      "föräldrar": [
+        "halli",
+        "elanor"
+      ],
+      "barn": [
+        "grimward"
+      ],
+      "partner": "rosanna_hede",
+      "status": "levande",
+      "anteckningar": "Halli och Elanors son, fornnordiskt namn"
+    },
+    "aldanor": {
+      "id": "aldanor",
+      "namn": "Aldanor av huset Dúnhere",
+      "kön": "man",
+      "generation": -1.5,
+      "föräldrar": [],
+      "barn": [
+        "mithrellas"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Ädel Dunedain-herre, Mithrellas far"
+    },
+    "mithrellas": {
+      "id": "mithrellas",
+      "namn": "Mithrellas",
+      "kön": "kvinna",
+      "generation": -1.5,
+      "föräldrar": [
+        "aldanor"
+      ],
+      "barn": [
+        "beregond"
+      ],
+      "partner": "grimward",
+      "status": "levande",
+      "anteckningar": "Ädel Dunedain-dam av huset Dúnhere"
+    },
+    "grimward": {
+      "id": "grimward",
+      "namn": "Grimward",
+      "kön": "man",
+      "generation": -1.5,
+      "föräldrar": [
+        "arnhelm"
+      ],
+      "barn": [
+        "beregond"
+      ],
+      "partner": "mithrellas",
+      "status": "levande",
+      "anteckningar": "Fornnordiskt namn"
+    },
+    "beregond": {
+      "id": "beregond",
+      "namn": "Beregond",
+      "kön": "man",
+      "generation": -1,
+      "föräldrar": [
+        "grimward",
+        "mithrellas"
+      ],
+      "barn": [
+        "hafgrim",
+        "bjornulf"
+      ],
+      "partner": "sigrun_av_dal",
+      "status": "levande",
+      "anteckningar": "Hafgrims far, sindarin namn från modersidan (huset Dúnhere)"
+    },
+    "sigrun_av_dal": {
+      "id": "sigrun_av_dal",
+      "namn": "Sigrun av Dal",
+      "kön": "kvinna",
+      "generation": -1,
+      "föräldrar": [],
+      "barn": [
+        "hafgrim",
+        "bjornulf"
+      ],
+      "partner": "beregond",
+      "status": "levande",
+      "anteckningar": "Beregonds fru, fornnordiskt namn - Segerns hemlighet"
+    },
+    "hafgrim": {
+      "id": "hafgrim",
+      "namn": "Hafgrim",
+      "kön": "man",
+      "generation": -0.5,
+      "föräldrar": [
+        "beregond"
+      ],
+      "barn": [
+        "vidar",
+        "eliv"
+      ],
+      "partner": "sigrid_hallhirding",
+      "status": "levande",
+      "anteckningar": "Vidars och Elivs far, Holmfasts farfar, Hallis ättling"
+    },
+    "bjornulf": {
+      "id": "bjornulf",
+      "namn": "Bjornulf",
+      "kön": "man",
+      "generation": -0.5,
+      "föräldrar": [
+        "beregond"
+      ],
+      "barn": [
+        "ragnvald"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Hafgrims bror, fornnordiskt namn"
+    },
+    "ragnvald": {
+      "id": "ragnvald",
+      "namn": "Ragnvald",
+      "kön": "man",
+      "generation": 0,
+      "föräldrar": [
+        "bjornulf"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Bjornulfs son, fornnordiskt namn"
+    },
+    "sigrid_hallhirding": {
+      "id": "sigrid_hallhirding",
+      "namn": "Sigrid Hall-hirding",
+      "kön": "kvinna",
+      "generation": -0.5,
+      "föräldrar": [],
+      "barn": [
+        "vidar",
+        "eliv"
+      ],
+      "partner": "hafgrim",
+      "status": "levande",
+      "anteckningar": "Hafgrims fru, fornnordiskt namn med titel - Vacker seger"
+    },
+    "isildanor": {
+      "id": "isildanor",
+      "namn": "Isildanor av huset Ulad",
+      "kön": "man",
+      "generation": -1,
+      "föräldrar": [],
+      "barn": [
+        "liriel",
+        "ulduilas"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Liriels och Ulduilas far, grundare av huset Ulad, dunedain-herre"
+    },
+    "vidar": {
+      "id": "vidar",
+      "namn": "Vidar",
+      "kön": "man",
+      "generation": 0,
+      "föräldrar": [
+        "hafgrim"
+      ],
+      "barn": [
+        "holmfast"
+      ],
+      "partner": "liriel",
+      "status": "levande",
+      "anteckningar": "Holmfasts far, Elivs bror"
+    },
+    "eliv": {
+      "id": "eliv",
+      "namn": "Eliv",
+      "kön": "man",
+      "generation": 0,
+      "föräldrar": [
+        "hafgrim"
+      ],
+      "barn": [
+        "tormund",
+        "ulf"
+      ],
+      "partner": "astrid",
+      "status": "levande",
+      "anteckningar": "Vidars bror, fornnordiskt namn"
+    },
+    "astrid": {
+      "id": "astrid",
+      "namn": "Astrid",
+      "kön": "kvinna",
+      "generation": 0,
+      "föräldrar": [],
+      "barn": [
+        "tormund",
+        "ulf"
+      ],
+      "partner": "eliv",
+      "status": "levande",
+      "anteckningar": "Elivs fru, fornnordiskt namn"
+    },
+    "tormund": {
+      "id": "tormund",
+      "namn": "Tormund",
+      "kön": "man",
+      "generation": 1,
+      "föräldrar": [
+        "eliv",
+        "astrid"
+      ],
+      "barn": [
+        "steinthor"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Elivs äldste son, fornnordiskt namn"
+    },
+    "steinthor": {
+      "id": "steinthor",
+      "namn": "Steinþór av Elivs Ryd",
+      "kön": "man",
+      "generation": 2,
+      "föräldrar": [
+        "tormund"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Tormunds son, herre av Elivs Ryd"
+    },
+    "ulf": {
+      "id": "ulf",
+      "namn": "Ulf",
+      "kön": "man",
+      "generation": 1,
+      "föräldrar": [
+        "eliv",
+        "astrid"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Elivs yngre son, fornnordiskt namn"
+    },
+    "liriel": {
+      "id": "liriel",
+      "namn": "Liriel",
+      "kön": "kvinna",
+      "generation": 0,
+      "föräldrar": [
+        "isildanor"
+      ],
+      "barn": [
+        "holmfast"
+      ],
+      "partner": "vidar",
+      "status": "levande",
+      "anteckningar": "Holmfasts mor, Ulduilas syster, av huset Ulad"
+    },
+    "ulduilas": {
+      "id": "ulduilas",
+      "namn": "Ulduilas",
+      "kön": "kvinna",
+      "generation": 0,
+      "föräldrar": [
+        "isildanor"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Liriels syster, av huset Ulad"
+    },
+    "holmfast": {
+      "id": "holmfast",
+      "namn": "Holmfast",
+      "kön": "man",
+      "generation": 1,
+      "föräldrar": [
+        "vidar",
+        "liriel"
+      ],
+      "barn": [
+        "halvard"
+      ],
+      "partner": "tyra",
+      "status": "levande",
+      "anteckningar": "Halvards far, Sigeberths bror"
+    },
+    "tyra": {
+      "id": "tyra",
+      "namn": "Tyra",
+      "kön": "kvinna",
+      "generation": 1,
+      "föräldrar": [],
+      "barn": [
+        "halvard"
+      ],
+      "partner": "holmfast",
+      "status": "levande",
+      "anteckningar": "Halvards mor"
+    },
+    "sigeberth": {
+      "id": "sigeberth",
+      "namn": "Sigeberth",
+      "kön": "man",
+      "generation": 1,
+      "föräldrar": [
+        "vidar",
+        "liriel"
+      ],
+      "barn": [
+        "godmer"
+      ],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Holmfasts bror"
+    },
+    "godmer": {
+      "id": "godmer",
+      "namn": "Godmer",
+      "kön": "man",
+      "generation": 2,
+      "föräldrar": [
+        "sigeberth"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Sigeberths son, Halvards kusin"
+    },
+    "halvard": {
+      "id": "halvard",
+      "namn": "Halvard Halling",
+      "kön": "man",
+      "generation": 2,
+      "föräldrar": [
+        "holmfast",
+        "tyra"
+      ],
+      "barn": [
+        "harald",
+        "halldis",
+        "frode",
+        "steorra"
+      ],
+      "partner": "aelswith",
+      "status": "levande",
+      "anteckningar": "Huvudperson i kampanjen"
+    },
+    "aelswith": {
+      "id": "aelswith",
+      "namn": "Aelswith",
+      "kön": "kvinna",
+      "generation": 2,
+      "föräldrar": [],
+      "barn": [
+        "harald",
+        "halldis",
+        "frode",
+        "steorra"
+      ],
+      "partner": "halvard",
+      "status": "levande",
+      "anteckningar": "Halvards gemål"
+    },
+    "harald": {
+      "id": "harald",
+      "namn": "Harald",
+      "kön": "man",
+      "generation": 3,
+      "föräldrar": [
+        "halvard",
+        "aelswith"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Halvards son"
+    },
+    "halldis": {
+      "id": "halldis",
+      "namn": "Halldis",
+      "kön": "kvinna",
+      "generation": 3,
+      "föräldrar": [
+        "halvard",
+        "aelswith"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Halvards dotter"
+    },
+    "frode": {
+      "id": "frode",
+      "namn": "Frode",
+      "kön": "man",
+      "generation": 3,
+      "föräldrar": [
+        "halvard",
+        "aelswith"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Halvards son"
+    },
+    "steorra": {
+      "id": "steorra",
+      "namn": "Steorra",
+      "kön": "kvinna",
+      "generation": 3,
+      "föräldrar": [
+        "halvard",
+        "aelswith"
+      ],
+      "barn": [],
+      "partner": null,
+      "status": "levande",
+      "anteckningar": "Halvards dotter"
+    }
+  },
+  "relationships": [
+    {
+      "type": "parent-child",
+      "person1": "galrandir",
+      "person2": "elanor",
+      "notes": "Galrandir is parent of Elanor"
+    },
+    {
+      "type": "parent-child",
+      "person1": "halli",
+      "person2": "arnhelm",
+      "notes": "Halli av Dal is parent of Arnhelm"
+    },
+    {
+      "type": "marriage",
+      "person1": "elanor",
+      "person2": "halli",
+      "status": "gift",
+      "notes": "Marriage between Elanor and Halli av Dal"
+    },
+    {
+      "type": "parent-child",
+      "person1": "elanor",
+      "person2": "arnhelm",
+      "notes": "Elanor is parent of Arnhelm"
+    },
+    {
+      "type": "parent-child",
+      "person1": "aldred_hede",
+      "person2": "rosanna_hede",
+      "notes": "Aldred Hede is parent of Rosanna Hede"
+    },
+    {
+      "type": "parent-child",
+      "person1": "rosanna_hede",
+      "person2": "grimward",
+      "notes": "Rosanna Hede is parent of Grimward"
+    },
+    {
+      "type": "marriage",
+      "person1": "arnhelm",
+      "person2": "rosanna_hede",
+      "status": "gift",
+      "notes": "Marriage between Arnhelm and Rosanna Hede"
+    },
+    {
+      "type": "parent-child",
+      "person1": "arnhelm",
+      "person2": "grimward",
+      "notes": "Arnhelm is parent of Grimward"
+    },
+    {
+      "type": "parent-child",
+      "person1": "aldanor",
+      "person2": "mithrellas",
+      "notes": "Aldanor av huset Dúnhere is parent of Mithrellas"
+    },
+    {
+      "type": "parent-child",
+      "person1": "mithrellas",
+      "person2": "beregond",
+      "notes": "Mithrellas is parent of Beregond"
+    },
+    {
+      "type": "marriage",
+      "person1": "grimward",
+      "person2": "mithrellas",
+      "status": "gift",
+      "notes": "Marriage between Grimward and Mithrellas"
+    },
+    {
+      "type": "parent-child",
+      "person1": "grimward",
+      "person2": "beregond",
+      "notes": "Grimward is parent of Beregond"
+    },
+    {
+      "type": "marriage",
+      "person1": "beregond",
+      "person2": "sigrun_av_dal",
+      "status": "gift",
+      "notes": "Marriage between Beregond and Sigrun av Dal"
+    },
+    {
+      "type": "parent-child",
+      "person1": "beregond",
+      "person2": "hafgrim",
+      "notes": "Beregond is parent of Hafgrim"
+    },
+    {
+      "type": "parent-child",
+      "person1": "beregond",
+      "person2": "bjornulf",
+      "notes": "Beregond is parent of Bjornulf"
+    },
+    {
+      "type": "parent-child",
+      "person1": "sigrun_av_dal",
+      "person2": "hafgrim",
+      "notes": "Sigrun av Dal is parent of Hafgrim"
+    },
+    {
+      "type": "parent-child",
+      "person1": "sigrun_av_dal",
+      "person2": "bjornulf",
+      "notes": "Sigrun av Dal is parent of Bjornulf"
+    },
+    {
+      "type": "marriage",
+      "person1": "hafgrim",
+      "person2": "sigrid_hallhirding",
+      "status": "gift",
+      "notes": "Marriage between Hafgrim and Sigrid Hall-hirding"
+    },
+    {
+      "type": "parent-child",
+      "person1": "hafgrim",
+      "person2": "vidar",
+      "notes": "Hafgrim is parent of Vidar"
+    },
+    {
+      "type": "parent-child",
+      "person1": "hafgrim",
+      "person2": "eliv",
+      "notes": "Hafgrim is parent of Eliv"
+    },
+    {
+      "type": "parent-child",
+      "person1": "bjornulf",
+      "person2": "ragnvald",
+      "notes": "Bjornulf is parent of Ragnvald"
+    },
+    {
+      "type": "parent-child",
+      "person1": "sigrid_hallhirding",
+      "person2": "vidar",
+      "notes": "Sigrid Hall-hirding is parent of Vidar"
+    },
+    {
+      "type": "parent-child",
+      "person1": "sigrid_hallhirding",
+      "person2": "eliv",
+      "notes": "Sigrid Hall-hirding is parent of Eliv"
+    },
+    {
+      "type": "parent-child",
+      "person1": "isildanor",
+      "person2": "liriel",
+      "notes": "Isildanor av huset Ulad is parent of Liriel"
+    },
+    {
+      "type": "parent-child",
+      "person1": "isildanor",
+      "person2": "ulduilas",
+      "notes": "Isildanor av huset Ulad is parent of Ulduilas"
+    },
+    {
+      "type": "parent-child",
+      "person1": "vidar",
+      "person2": "holmfast",
+      "notes": "Vidar is parent of Holmfast"
+    },
+    {
+      "type": "parent-child",
+      "person1": "eliv",
+      "person2": "tormund",
+      "notes": "Eliv is parent of Tormund"
+    },
+    {
+      "type": "parent-child",
+      "person1": "eliv",
+      "person2": "ulf",
+      "notes": "Eliv is parent of Ulf"
+    },
+    {
+      "type": "marriage",
+      "person1": "astrid",
+      "person2": "eliv",
+      "status": "gift",
+      "notes": "Marriage between Astrid and Eliv"
+    },
+    {
+      "type": "parent-child",
+      "person1": "astrid",
+      "person2": "tormund",
+      "notes": "Astrid is parent of Tormund"
+    },
+    {
+      "type": "parent-child",
+      "person1": "astrid",
+      "person2": "ulf",
+      "notes": "Astrid is parent of Ulf"
+    },
+    {
+      "type": "parent-child",
+      "person1": "tormund",
+      "person2": "steinthor",
+      "notes": "Tormund is parent of Steinþór av Elivs Ryd"
+    },
+    {
+      "type": "marriage",
+      "person1": "liriel",
+      "person2": "vidar",
+      "status": "gift",
+      "notes": "Marriage between Liriel and Vidar"
+    },
+    {
+      "type": "parent-child",
+      "person1": "liriel",
+      "person2": "holmfast",
+      "notes": "Liriel is parent of Holmfast"
+    },
+    {
+      "type": "marriage",
+      "person1": "holmfast",
+      "person2": "tyra",
+      "status": "gift",
+      "notes": "Marriage between Holmfast and Tyra"
+    },
+    {
+      "type": "parent-child",
+      "person1": "holmfast",
+      "person2": "halvard",
+      "notes": "Holmfast is parent of Halvard Halling"
+    },
+    {
+      "type": "parent-child",
+      "person1": "tyra",
+      "person2": "halvard",
+      "notes": "Tyra is parent of Halvard Halling"
+    },
+    {
+      "type": "parent-child",
+      "person1": "sigeberth",
+      "person2": "godmer",
+      "notes": "Sigeberth is parent of Godmer"
+    },
+    {
+      "type": "parent-child",
+      "person1": "halvard",
+      "person2": "harald",
+      "notes": "Halvard Halling is parent of Harald"
+    },
+    {
+      "type": "parent-child",
+      "person1": "halvard",
+      "person2": "halldis",
+      "notes": "Halvard Halling is parent of Halldis"
+    },
+    {
+      "type": "parent-child",
+      "person1": "halvard",
+      "person2": "frode",
+      "notes": "Halvard Halling is parent of Frode"
+    },
+    {
+      "type": "parent-child",
+      "person1": "halvard",
+      "person2": "steorra",
+      "notes": "Halvard Halling is parent of Steorra"
+    },
+    {
+      "type": "marriage",
+      "person1": "aelswith",
+      "person2": "halvard",
+      "status": "gift",
+      "notes": "Marriage between Aelswith and Halvard Halling"
+    },
+    {
+      "type": "parent-child",
+      "person1": "aelswith",
+      "person2": "harald",
+      "notes": "Aelswith is parent of Harald"
+    },
+    {
+      "type": "parent-child",
+      "person1": "aelswith",
+      "person2": "halldis",
+      "notes": "Aelswith is parent of Halldis"
+    },
+    {
+      "type": "parent-child",
+      "person1": "aelswith",
+      "person2": "frode",
+      "notes": "Aelswith is parent of Frode"
+    },
+    {
+      "type": "parent-child",
+      "person1": "aelswith",
+      "person2": "steorra",
+      "notes": "Aelswith is parent of Steorra"
+    }
+  ],
+  "settings": {
+    "font": {
+      "family": "Dancing Script",
+      "fallbacks": [
+        "Lucida Handwriting",
+        "Apple Chancery",
+        "cursive",
+        "serif"
+      ],
+      "size": {
+        "title": 32,
+        "names": 16,
+        "relationships": 10
+      }
+    },
+    "orientation": "portrait",
+    "theme": {
+      "name": "parchment",
+      "colors": {
+        "background": "#f4f1e8",
+        "text": "#5a4a3a",
+        "lines": "#8b7355",
+        "accent": "#d4c4a8"
+      },
+      "decorations": {
+        "showBorder": true,
+        "showCornerDecorations": true,
+        "showShadows": true
+      }
+    },
+    "layout": {
+      "algorithm": "family-groups-separated",
+      "spacing": "comfortable",
+      "showGenerationLabels": true,
+      "showMarriageSymbols": true,
+      "centerMainPerson": true
+    },
+    "dimensions": {
+      "width": 595,
+      "height": 842
+    },
+    "formats": [
+      "svg",
+      "png"
+    ],
+    "quality": 300
+  },
+  "metadata": {
+    "skapad": "2025-09-29T11:53:36.945Z",
+    "senast_uppdaterad": "2025-09-29T11:53:36.945Z",
+    "version": "1.0.0",
+    "struktur_version": "2.0.0",
+    "antal_personer": 34,
+    "antal_generationer": 10,
+    "dokumentation_uppdaterad": "2025-09-29T11:53:36.945Z"
+  }
+}
