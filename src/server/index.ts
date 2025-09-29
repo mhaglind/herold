@@ -3,6 +3,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
+import projectRoutes from './routes/projects';
 
 // Load environment variables
 dotenv.config();
@@ -38,6 +39,9 @@ app.get('/api', (req, res) => {
     },
   });
 });
+
+// Project management routes
+app.use('/api/projects', projectRoutes);
 
 // 404 handler
 app.use('*', (req, res) => {
